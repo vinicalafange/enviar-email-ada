@@ -34,9 +34,8 @@ const enviarEmail = (addressee, subject, body) => {
 };
 
 const getWeekday = () => {
-    // const date = new Date();
-    // return date.getDay(); 
-    return 1;
+    const date = new Date();
+    return date.getDay(); 
 };
 
 const montarCorpoEmail = (
